@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1287909793363532');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1287909793363532&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malik Mumbai - Official Telegram</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            color: #1e293b;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 380px;
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Top Header */
+        .top-header {
+            background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+            padding: 30px 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        .top-header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #10b981, #3b82f6, #8b5cf6);
+        }
+
+        .top-text {
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+
+        /* Profile Section */
+        .profile-section {
+            padding: 30px 20px 20px;
+            text-align: center;
+        }
+
+        .profile-img-container {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 20px;
+            position: relative;
+        }
+
+        .profile-img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .verified-badge {
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            background: #10b981;
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            border: 2px solid white;
+        }
+
+        .name {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 8px;
+        }
+
+        .handle {
+            color: #64748b;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        /* Status Badge */
+        .status-badge {
+            display: inline-block;
+            background: #fef3c7;
+            color: #92400e;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 25px;
+            border: 1px solid #fbbf24;
+        }
+
+        /* Timer Section */
+        .timer-section {
+            background: #f1f5f9;
+            margin: 0 20px;
+            padding: 20px;
+            border-radius: 16px;
+            text-align: center;
+            border: 1px solid #e2e8f0;
+        }
+
+        .timer-label {
+            font-size: 14px;
+            color: #64748b;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .timer-display {
+            font-size: 48px;
+            font-weight: 800;
+            color: #3b82f6;
+            margin-bottom: 8px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .timer-subtext {
+            font-size: 13px;
+            color: #94a3b8;
+            letter-spacing: 1px;
+        }
+
+        /* Button */
+        .action-section {
+            padding: 30px 20px;
+        }
+
+        .join-button {
+            width: 100%;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+            border: none;
+            padding: 18px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            box-shadow: 0 6px 20px rgba(16, 185, 129, 0.25);
+        }
+
+        .join-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(16, 185, 129, 0.35);
+        }
+
+        .join-button:active {
+            transform: translateY(0);
+        }
+
+        .button-icon {
+            font-size: 18px;
+        }
+
+        /* Info Text */
+        .info-text {
+            text-align: center;
+            color: #64748b;
+            font-size: 14px;
+            margin-top: 16px;
+            line-height: 1.5;
+            padding: 0 10px;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #e2e8f0;
+            background: #f8fafc;
+        }
+
+        .advertiser {
+            font-size: 12px;
+            color: #94a3b8;
+        }
+
+        .advertiser a {
+            color: #3b82f6;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .advertiser a:hover {
+            text-decoration: underline;
+        }
+
+        /* Success Message */
+        .success-message {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+            text-align: center;
+            z-index: 1000;
+            max-width: 300px;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translate(-50%, -60%); }
+            to { opacity: 1; transform: translate(-50%, -50%); }
+        }
+
+        .success-icon {
+            font-size: 48px;
+            color: #10b981;
+            margin-bottom: 15px;
+        }
+
+        .success-text {
+            font-size: 16px;
+            color: #1e293b;
+            margin-bottom: 20px;
+        }
+
+        /* Overlay */
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+
+        /* Responsive */
+        @media (max-width: 480px) {
+            .container {
+                max-width: 100%;
+            }
+            
+            .timer-display {
+                font-size: 42px;
+            }
+            
+            .name {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="top-header">
+        <div class="top-text">GOVIND 🙏</div>
+    </div>
+
+    <div class="profile-section">
+        <div class="profile-img-container">
+            <img class="profile-img" src="https://d1yei2z3i6k35z.cloudfront.net/13184094/69513efa00aab_nFw6sttsu884EipYH3db4oyTFuAyC856M0uR2EZluWLaFYSYiDYZSE9C-yvf-Zu30R35VlAIiIw0poeD4OlOLZFKFACUiftKFq3CHXrNFnxRmOEWQsQrOWC8P1Fu4x2XnuR-NPyr8OnbZKHt-xAfW_i0GBIfiG-GF_agysmpPWQ5WCRLWQ_1hV73mw_z2IVF11cZ9XN2IaAsEB.jpg" alt="Malik Mumbai" loading="lazy">
+            <div class="verified-badge">
+                <i class="fas fa-check"></i>
+            </div>
+        </div>
+        
+        <div class="name">Malik Mumbai</div>
+        <div class="handle">@officialmalikmumbai</div>
+        
+        <div class="status-badge">
+            <i class="fas fa-clock"></i> Free Access Ending Soon
+        </div>
+    </div>
+
+    <div class="timer-section">
+        <div class="timer-label">TIME REMAINING</div>
+        <div class="timer-display" id="timer">20</div>
+        <div class="timer-subtext">SECONDS LEFT</div>
+    </div>
+
+    <div class="action-section">
+        <button class="join-button" id="joinButton">
+            <span class="button-icon"><i class="fab fa-telegram-plane"></i></span>
+            JOIN TELEGRAM CHANNEL
+        </button>
+        
+        <div class="info-text">
+            Join the exclusive Malik Mumbai community. Limited spots available.
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="advertiser">
+            Sponsored by <a href="https://t.me/quicklygrow" target="_blank">@quicklygrow</a>
+        </div>
+    </div>
+</div>
+
+<!-- Success Modal -->
+<div class="overlay" id="overlay"></div>
+<div class="success-message" id="successMessage">
+    <div class="success-icon">
+        <i class="fas fa-check-circle"></i>
+    </div>
+    <div class="success-text">
+        Redirecting to Telegram...
+    </div>
+</div>
+
+<script>
+    // Timer Configuration
+    let timeLeft = 20;
+    const timerElement = document.getElementById('timer');
+    const joinButton = document.getElementById('joinButton');
+    const overlay = document.getElementById('overlay');
+    const successMessage = document.getElementById('successMessage');
+    const telegramLink = "https://t.me/+-OYfELVJn8piMzY9";
+
+    // Update Timer
+    const timerInterval = setInterval(() => {
+        timeLeft--;
+        timerElement.textContent = timeLeft.toString().padStart(2, '0');
+        
+        // Change color based on time
+        if (timeLeft <= 10) {
+            timerElement.style.color = "#f59e0b";
+        }
+        if (timeLeft <= 5) {
+            timerElement.style.color = "#ef4444";
+        }
+        
+        if (timeLeft <= 0) {
+            clearInterval(timerInterval);
+            timerElement.textContent = "00";
+            redirectToTelegram();
+        }
+    }, 1000);
+
+    // Button Click Handler
+    joinButton.addEventListener('click', () => {
+        redirectToTelegram();
+    });
+
+    // Redirect Function
+    function redirectToTelegram() {
+        // Show success message
+        overlay.style.display = 'block';
+        successMessage.style.display = 'block';
+        
+        // Change button text
+        joinButton.innerHTML = '<span class="button-icon"><i class="fas fa-spinner fa-spin"></i></span> REDIRECTING...';
+        joinButton.disabled = true;
+        
+        // Redirect after 1 second
+        setTimeout(() => {
+            window.location.href = telegramLink;
+        }, 1000);
+    }
+
+    // Auto-redirect after 25 seconds as fallback
+    setTimeout(() => {
+        if (!window.location.href.includes('t.me')) {
+            redirectToTelegram();
+        }
+    }, 25000);
+
+    // Smooth hover effects
+    joinButton.addEventListener('mouseenter', function() {
+        this.style.transform = 'translateY(-2px)';
+    });
+
+    joinButton.addEventListener('mouseleave', function() {
+        this.style.transform = 'translateY(0)';
+    });
+</script>
+</body>
+</html>
